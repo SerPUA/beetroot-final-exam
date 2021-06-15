@@ -1,0 +1,93 @@
+.container {
+  margin: 0 auto;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+  background-color: black;
+}
+.head {
+  font-weight: 700;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background: url("/images/header-bg.jpg") center/cover no-repeat;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.head-nav__link {
+  
+  margin: 0;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.head-nav__link-nav-link {
+  font-size: 12px;
+  color: white;
+  text-decoration: none;
+  position: fixed;
+  top: 0;
+}
+.head-nav__link-nav-link:hover {
+  color: gold;
+  text-decoration: underline;
+}
+
+.logo {
+  width: 150px;
+  height: 150px;
+  margin-top: -8px;
+}
+
+.head-text {
+  text-align: center;
+  margin-top: 151px;
+}
+.head-text__span {
+  font-size: 12px;
+  color: white;
+}
+.head-text__main-text {
+  margin: 0;
+  font-family: "Dosis", sans-serif;
+  font-weight: 700;
+  color: white;
+  text-transform: uppercase;
+  font-size: 96px;
+}
+.line {
+  height: 5.11px;
+  width: 60px;
+  background-color: #e8c300;
+  border-radius: 50px;
+  border: 0;
+}
+.head-button {
+  display: flex;
+  justify-content: center;
+}
+.button__main {
+  width: 200px;
+  height: 60px;
+  border-radius: 5px;
+  border: 0;
+  text-transform: uppercase;
+  color: white;
+  font-size: 12px;
+}
+.head-button__book {
+  margin-right: 40px;
+  background-color: #e8c300;
+}
+.head-button__explor {
+  color: white;
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+.material-icons {
+  font-family: 'expand_more', serif;
+  font-size: 50px;
+}
